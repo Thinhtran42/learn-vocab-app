@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>VocabMaster Icon</title>
+</head>
+<body>
+    <svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+        <!-- Background Gradient -->
+        <defs>
+            <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+                <stop offset="50%" style="stop-color:#764ba2;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#f093fb;stop-opacity:1" />
+            </linearGradient>
+            <linearGradient id="bookGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#F0F0F0;stop-opacity:1" />
+            </linearGradient>
+        </defs>
+        
+        <!-- Background Circle -->
+        <circle cx="512" cy="512" r="480" fill="url(#bgGradient)" />
+        
+        <!-- Book Icon -->
+        <g transform="translate(512,512)">
+            <!-- Book Base -->
+            <rect x="-120" y="-80" width="240" height="160" rx="12" fill="url(#bookGradient)" />
+            
+            <!-- Book Pages -->
+            <rect x="-110" y="-70" width="220" height="10" fill="#4ECDC4" />
+            <rect x="-110" y="-50" width="220" height="8" fill="#FF6B9D" />
+            <rect x="-110" y="-32" width="220" height="8" fill="#45B7D1" />
+            
+            <!-- Letter "V" -->
+            <text x="0" y="20" font-family="Arial, sans-serif" font-size="100" font-weight="bold" 
+                  text-anchor="middle" fill="#667eea">V</text>
+            
+            <!-- Sparkles -->
+            <circle cx="-150" cy="-120" r="8" fill="#FFD700" />
+            <circle cx="150" cy="-120" r="6" fill="#FFD700" />
+            <circle cx="-180" cy="100" r="10" fill="#FFD700" />
+            <circle cx="180" cy="120" r="7" fill="#FFD700" />
+        </g>
+    </svg>
+</body>
+</html>
